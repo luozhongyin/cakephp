@@ -1,0 +1,15 @@
+
+
+<html>
+<head>
+
+</head>
+<body class="home">
+<?= $this->Form->create() ?>
+<?= $this->Form->input('uid') ?>
+<?= $this->Form->input('pass') ?>
+<?= $this->Form->button('Login') ?>
+<?= $this->Form->end() ?>
+
+</body>
+</html>
